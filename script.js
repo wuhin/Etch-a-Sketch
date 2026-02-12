@@ -1,5 +1,6 @@
 const grid = document.querySelector("#container")
 let size = 16;
+ 
 
 function randomRgb() {
     const r = Math.floor(Math.random() * 256);
@@ -9,8 +10,8 @@ function randomRgb() {
     return `rgb(${r}, ${g}, ${b})`; 
 }
 
-function createGrid(size){
-
+function createGrid(size){     
+    
     grid.textContent = "";
 
     for(let i = 0; i < size; i++){

@@ -15,6 +15,7 @@ body {
     align-items: center;
     margin: 0;
     height: 100vh;
+    background-color: rgb(190, 190, 190);
 }
 
 #container {
@@ -24,8 +25,9 @@ body {
     align-content: center;
     width: 500px;
     height: 500px;
-    border: solid 5px black;
-    background-color: rgb(207, 207, 207);
+    border: solid 1px black;
+    background-color: white;
+    margin-bottom: 20px;
 
 }
 
