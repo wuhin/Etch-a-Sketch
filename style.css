@@ -1,0 +1,41 @@
+h1 {
+    
+    text-align: center;
+}
+
+button{
+    margin-bottom: 20px;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+
+#container {
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 500px;
+    height: 500px;
+    border: solid 5px black;
+    background-color: rgb(207, 207, 207);
+
+}
+
+.row { 
+    
+    display: flex;
+    flex: 1;
+}
+
+.cell {
+    
+    flex: 1;
+}
